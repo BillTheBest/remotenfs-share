@@ -206,7 +206,7 @@ OMV.WorkspaceManager.registerPanel({
 OMV.WorkspaceManager.registerNode({
     id      : "remotenfsshare",
     path    : "/service",
-    text    : _("Remote NFS"),
+    text    : _("Remote NFS Share"),
     icon16  : "images/remotenfs.png",
     iconSvg : "images/remotenfs.svg"
 });
