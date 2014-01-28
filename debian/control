@@ -1,0 +1,13 @@
+Source: openmediavault-remotenfs-share
+Section: net
+Priority: optional
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+
+Package: openmediavault-remotenfs-share
+Architecture: all
+Depends: openmediavault (>= 0.5.14),
+Description: remotenfs share plugin for OpenMediaVault.
+ This plugin allow mounting of a remote NFS share as a Shared Folder
+ for sharing with other plugins.
